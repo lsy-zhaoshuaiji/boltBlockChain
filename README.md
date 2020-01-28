@@ -9,11 +9,12 @@ Bolt是一个用Go编写的键值数据库。其目标是为了给程序提供�
 安装：
 
 go get github.com/boltdb/bolt/...
+
 基于BOLT的读写、
 
-func main() {
-	//打开数据库
 
+	func main() {
+	//打开数据库
 	// func Open(path string, mode os.FileMode, options *Options) (*DB, error) {
 	db, err := bolt.Open("testDb.db", 0600, nil)//第二个参数为权限
 	

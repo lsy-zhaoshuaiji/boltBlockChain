@@ -1,6 +1,5 @@
 # boltBlockChain
-Realizing pow bolt-blockchain based on golang
-基于Bolt数据库实现可持续化的区块链
+基于golang库实现可持续化的区块链
      完整教程链接如：https://blog.csdn.net/Laughing_G/article/details/104054099
     上文中，我们已经可以实现一个最基本的区块链结构了。但是我们在运行过程中发现，目前的程序数据都存在内存中，换句话来说就是，程序一关闭数据就不见了，所以我们需要引入数据库。这时轻量级数据库Bolt就映入眼帘了。
 

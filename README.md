@@ -1,6 +1,6 @@
 # boltBlockChain(基于golang-blot实现可持续化的区块链)
 
-    完整教程链接如：https://blog.csdn.net/Laughing_G/article/details/104054099
+ 完整教程链接：https://blog.csdn.net/Laughing_G/article/details/104054099
 
 什么是Bolt数据库呢？
 
